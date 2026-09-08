@@ -29,7 +29,7 @@ pip install fastapi uvicorn websockets
 python -m uvicorn main:app --reload --port 8000
 Backend runs on: http://127.0.0.1:8000
 
-###2. Start Frontend
+### 2. Start Frontend
 flutter pub get
 flutter run -d chrome
 
